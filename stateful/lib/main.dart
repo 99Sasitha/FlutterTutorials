@@ -37,10 +37,11 @@ class _MyNameState extends State<MyName> {
   
 
   @override
+  
   Widget build(BuildContext context) {
 
-String username;
-    
+  String username;
+
     return Container(
 
       padding: EdgeInsets.all(17),
@@ -61,7 +62,6 @@ String username;
                 setState((){
 
                   print(name);
-
                   username=name;
                 });
             },
