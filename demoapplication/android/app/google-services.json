@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258207058753",
+    "project_id": "flutterdemo-ceda8",
+    "storage_bucket": "flutterdemo-ceda8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258207058753:android:79124d2268306e1684efc0",
+        "android_client_info": {
+          "package_name": "com.example.demoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258207058753-jj4v0h9q1aqkiv058vafvvpajku3pihg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk3ny3kUGyqq51D45xIISpTFI7Qx86V5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258207058753-jj4v0h9q1aqkiv058vafvvpajku3pihg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
