@@ -21,8 +21,16 @@ class NinjaHome extends StatefulWidget {
   @override
   _NinjaHomeState createState() => _NinjaHomeState();
 }
+int count=0;
 
 class _NinjaHomeState extends State<NinjaHome> {
+
+  void increment(){
+    setState(() {
+      count=count+1;
+
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -93,10 +101,24 @@ class _NinjaHomeState extends State<NinjaHome> {
                 color: Colors.green,
               ),
                   ),
+
+                  button(),
+
+                  Text(count.toString()),
           ],),
         ),
 
       
     );
   }
+
+  Widget button(){
+    return RaisedButton(
+      onPressed: increment,
+      child: Text("Click me"),
+      
+      );
+
+  }
 }
+
