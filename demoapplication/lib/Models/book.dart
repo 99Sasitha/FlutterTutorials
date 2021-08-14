@@ -2,8 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Book {
 
-  String bookName="";
-  String authorName="";
+  String bookName;
+  String authorName;
 
   DocumentReference documentReference;
 
